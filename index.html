@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html class="preload" data-appmode="standalone">
+<head>
+
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="preload" href="modules/fonts/material-icons/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP_1.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="Emby Server">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta http-equiv="X-UA-Compatibility" content="IE=Edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Emby">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta property="og:title" content="Emby">
+    <meta property="og:site_name" content="Emby">
+    <meta property="og:url" content="https://emby.media">
+    <meta property="og:description" content="Energize your media.">
+    <meta property="og:type" content="article">
+    <meta property="fb:app_id" content="1618309211750238">
+    <link rel="apple-touch-icon" href="images/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="images/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="images/icon-512x512.png">
+    <link rel="apple-touch-startup-image" href="images/splash.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="msapplication-TileImage" content="images/touchicon144.png">
+    <meta name="msapplication-TileColor" content="#333333">
+    <meta name="theme-color" content="#43A047">
+
+    <title>Emby</title>
+
+    <style>
+        .preload {
+            background-color: #000;
+        }
+
+        .app-splash {
+            background-image: url(modules/themes/logowhite.png);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: fixed;
+            top: 30%;
+            left: 30%;
+            right: 30%;
+            height: 20%;
+        }
+
+        .hide {
+            display: none !important;
+        }
+
+        @media (orientation: landscape) {
+
+            .app-splash {
+                left: 37.5%;
+                right: 37.5%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="backdropContainer"></div>
+    <div class="backgroundContainer"></div>
+    <div class="mainDrawer hide focuscontainer-y"></div>
+    <div class="skinHeader focuscontainer-x headroom hide">
+    </div>
+    <div class="mainAnimatedPages skinBody">
+
+        <div class="app-splash"></div>
+    </div>
+    <script src="apploader.js" defer></script>
+    <script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./mjj.js"></script>
+</body>
+</html>
